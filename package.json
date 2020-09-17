@@ -10,15 +10,27 @@
     "packages/*",
     "applications/*"
   ],
+  "scripts": {
+    "start": "yarn storybook",
+    "storybook": "start-storybook -p 3153",
+    "build:storybook": "build-storybook -c .storybook -o .out"
+  },
   "devDependencies": {
+    "@storybook/addon-docs": "^6.0.21",
+    "@storybook/react": "^6.0.21",
+    "css-loader": "^4.3.0",
     "eslint": "^7.9.0",
     "eslint-config-alloy": "^3.8.0",
     "eslint-plugin-monorepo-cop": "^1.0.2",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.2",
     "husky": "^4.3.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.1",
     "lint-staged": "^10.4.0",
-    "prettier": "2.1.2"
+    "prettier": "2.1.2",
+    "style-loader": "^1.2.1",
+    "typescript": "^4.0.2"
   },
   "resolutions": {
     "prettier": "2.1.2"
