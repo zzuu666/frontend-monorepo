@@ -1,0 +1,13 @@
+{
+  "name": "frontend-monorepo",
+  "version": "0.0.0",
+  "description": "Monorepo template for frontend.",
+  "repository": "git@github.com:zzuu666/frontend-monorepo.git",
+  "author": "zzuu666 <zzuu666@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "applications/*"
+  ]
+}
