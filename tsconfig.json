@@ -22,6 +22,6 @@
     "baseUrl": ".",
     "skipLibCheck": true
   },
-  "include": ["packages", "docs"],
+  "include": ["packages"],
   "exclude": ["node_modules", "dist", "**/dist"]
 }
